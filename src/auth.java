@@ -1,9 +1,9 @@
 public class auth {
     // Simple 2D array: {username, password}
     public static final String[][] credentials = {
-            {"admin", "cheetah123"},
-            {"user", "network456"},
-            {"guest", "auth789"}
+            {"admin", "admin"},
+            {"user", "network"},
+            {"guest", "guest"}
     };
 
     public boolean validate(String username, String password) {
@@ -14,4 +14,5 @@ public class auth {
             }
             return false;
         }
+
     }
